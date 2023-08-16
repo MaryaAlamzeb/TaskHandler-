@@ -4,6 +4,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/*
+ * 
+ * 
+ * Class to test db connection
+ * 
+ * 
+ */
+
 public class DatabaseConfig {
 	private static final String URL = "jdbc:mysql://localhost:3306/student";
 	private static final String USERNAME = "root";
